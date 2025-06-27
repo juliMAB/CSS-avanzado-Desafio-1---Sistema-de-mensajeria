@@ -158,3 +158,45 @@ body {
     line-height: 1.5;
     font-size: 12px;
 }
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0; top: 0;
+    width: 100vw; height: 100vh;
+    background: rgba(68, 71, 73, 0.3);
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    background: #FFF;
+    margin: 10% auto;
+    padding: 32px 24px 24px 24px;
+    border-radius: 16px;
+    max-width: 340px;
+    box-shadow: 0 4px 24px rgba(164,145,210,0.10);
+    position: relative;
+    text-align: center;
+}
+.close-modal {
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    font-size: 28px;
+    color: #E94F37;
+    cursor: pointer;
+    font-weight: bold;
+}
+.modal-content h2 {
+    margin-bottom: 12px;
+    color: #A491D2;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 22px;
+}
+.modal-content p {
+    color: #444749;
+    font-size: 15px;
+    margin-bottom: 0;
+}
